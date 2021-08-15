@@ -1,0 +1,76 @@
+	/* Estilização padrão do site*/
+	body {
+    
+		margin: 0;
+    
+		background-color: #cbcbcb;
+    
+		font-family: 'Open Sans', sans serif;
+	
+	}	
+		/* Barra toda */
+	
+		#nav {
+	
+			background: #0F1642;
+	
+			position: fixed;
+	
+			left: 0;
+	
+			padding: 1em;
+	
+			height: 100%;
+	
+			border-radius: 0 20px 20px 0;
+	
+		}
+
+	/* Logo */
+
+		#nav #logo {
+
+			display: block;
+
+			width: 9rem;
+
+			height: 9rem;
+
+			margin: auto;
+
+		}
+   
+		/*Links da Barra de navegação */
+		ul {
+		
+			list-style-type: none;
+
+			margin: 0;
+
+			padding: 0;
+			
+			width: 200px;
+		
+		}
+		
+		/* Texto dos Links*/
+		li a {
+			
+			display: block;
+			
+			color: white;
+			
+			padding: 14px;
+			
+			text-decoration: none;
+
+			margin: auto;
+		}
+		
+		/* Ao passar o mouse por cima do link*/
+		li a:hover {
+
+				text-decoration: underline;
+		}
+
+
