@@ -14,11 +14,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
     <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/footer.css" rel="stylesheet" />
     <link href="./css/header.css" rel="stylesheet" />
+    <link href="./css/navbar.css" rel="stylesheet" />
     <link rel="sortcut icon" href="./img/escudo-detetivesdobrasil.svg" />
 </head>
 
 <body>
+    <nav id="nav">
+        <!-- Logo -->
+
+        <a href="welcome.html" target="_blank">
+            <img id="logo" src="https://raw.githubusercontent.com/Projeto-Aplicacoes-Web-1/projetoAW1/ba59e80cec299f9d5f3fdac92c5ce46f25140266/src/img/escudo-detetivesdobrasil.svg" />
+        </a>
+
+        <!-- Items da Barra de Navegação -->
+
+        <!-- Lista ordenada dos links -->
+        <ul>
+            <!-- Home -->
+            <li><a href="welcome.html"> Home </a></li>
+
+            <!-- Apresentação -->
+            <li><a href="apresentacao.html"> Apresentação </a></li>
+
+            <!-- Registro -->
+            <li><a href="registro.html"> Registro </a></li>
+
+            <!-- CRD'S Brasil -->
+            <li><a href="crd-brasil.html"> CRD'S Brasil </a></li>
+
+            <!-- Legislação -->
+            <li><a href="legislacao.html"> Legislação </a></li>
+
+            <!-- Código de Ética -->
+            <li><a href="codigo-de-etica.html"> Código de Ética </a></li>
+
+            <!-- Agências -->
+            <li><a href="agencia.html"> Agências </a></li>
+
+            <!-- Voltar -->
+            <li><a href="" onclick="history.go(-1)"> Voltar </a></li>
+        </ul>
+    </nav>
+
     <header id="header">
         <!-- Brasão Conselhos dos Detetives do Brasil -->
         <img id="brasão-CDB" src="./img/brasao-CDB.svg" />
@@ -112,41 +151,84 @@
           seleção para se registrar no Conselho dos Detetives do Brasil ou tem
           quaisquer dúvidas, entre em contato conosco, será um prazer conversar
           com você:
-        </p><br>
+        </p>
+        <br />
       </div>
-        
+
       <!-- Formulário -->
-        <div class="form">
-            <form>
-            <!-- Nome Completo -->
-                <p>
-                    <label for="fullname_id">Nome Completo*</label><br>
-                    <input type="text" name="fullname" size="15" maxlength="50" placeholder="Digite seu nome completo aqui" required autofocus/>
-                </p>
-                
-            <!-- Email -->
-                <p>
-                    <label for="email_id">E-mail*</label><br>
-                    <input type="email" name="email" id="email_id" placeholder="Digite seu email aqui" required autofocus>
-                </p>
-            
-            <!-- Assunto -->       
-                <p>
-                    <label for="assunto_id">Assunto*</label><br>
-                    <input type="text" name="assunto" size="15" maxlength="80" placeholder="Qual o motivo do seu contato?" required autofocus/>
-                </p>
-                
-            <!-- Mensagem -->
-                <p>
-                    <label for="mensagem_id">Mensagem*</label><br>
-                    <textarea id="mensagem" name="mensagem" cols="20" rows="20" placeholder="Como podemos te ajudar? Deixe sua mensagem..." required autofocus></textarea>
-                </p>
+      <div class="form">
+        <form>
+          <!-- Nome Completo -->
+          <p>
+            <label for="fullname_id">Nome Completo*</label><br />
+            <input
+              type="text"
+              name="fullname"
+              size="15"
+              maxlength="50"
+              placeholder="Digite seu nome completo aqui"
+              required
+              autofocus
+            />
+          </p>
 
-            <!-- Submeter -->
-                <button type="submit" id="button">ENVIARr</button>
+          <!-- Email -->
+          <p>
+            <label for="email_id">E-mail*</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email_id"
+              placeholder="Digite seu email aqui"
+              required
+              autofocus
+            />
+          </p>
 
-            </form>
-        </div>
+          <!-- Assunto -->
+          <p>
+            <label for="assunto_id">Assunto*</label><br />
+            <input
+              type="text"
+              name="assunto"
+              size="15"
+              maxlength="80"
+              placeholder="Qual o motivo do seu contato?"
+              required
+              autofocus
+            />
+          </p>
+
+          <!-- Mensagem -->
+          <p>
+            <label for="mensagem_id">Mensagem*</label><br />
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              cols="20"
+              rows="20"
+              placeholder="Como podemos te ajudar? Deixe sua mensagem..."
+              required
+              autofocus
+            ></textarea>
+          </p>
+
+          <!-- Submeter -->
+          <button type="submit" id="button">ENVIAR</button>
+        </form>
+      </div>
     </main>
+
+    <footer id="Footer">
+
+        <!-- Conteúdo do rodapé -->
+        <p>Copyright © 2002
+            <a href="http://www.conselhodosdetetivesdobrasil.org/" target="_blank">
+                            www.conselhodosdetetivesdobrasil.org
+                        </a> Todos os direitos reservados.</br>
+            Leia a política de privacidade do Conselho dos Detetives do Brasil.
+        </p>
+
+    </footer>
   </body>
 </html>
