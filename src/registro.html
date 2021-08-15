@@ -112,8 +112,41 @@
           seleção para se registrar no Conselho dos Detetives do Brasil ou tem
           quaisquer dúvidas, entre em contato conosco, será um prazer conversar
           com você:
-        </p>
+        </p><br>
       </div>
+        
+      <!-- Formulário -->
+        <div class="form">
+            <form>
+            <!-- Nome Completo -->
+                <p>
+                    <label for="fullname_id">Nome Completo*</label><br>
+                    <input type="text" name="fullname" size="15" maxlength="50" placeholder="Digite seu nome completo aqui" required autofocus/>
+                </p>
+                
+            <!-- Email -->
+                <p>
+                    <label for="email_id">E-mail*</label><br>
+                    <input type="email" name="email" id="email_id" placeholder="Digite seu email aqui" required autofocus>
+                </p>
+            
+            <!-- Assunto -->       
+                <p>
+                    <label for="assunto_id">Assunto*</label><br>
+                    <input type="text" name="assunto" size="15" maxlength="80" placeholder="Qual o motivo do seu contato?" required autofocus/>
+                </p>
+                
+            <!-- Mensagem -->
+                <p>
+                    <label for="mensagem_id">Mensagem*</label><br>
+                    <textarea id="mensagem" name="mensagem" cols="20" rows="20" placeholder="Como podemos te ajudar? Deixe sua mensagem..." required autofocus></textarea>
+                </p>
+
+            <!-- Submeter -->
+                <button type="submit" id="button">Enviar</button>
+
+            </form>
+        </div>
     </main>
   </body>
 </html>
