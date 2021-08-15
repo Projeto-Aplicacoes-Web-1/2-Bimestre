@@ -1,0 +1,52 @@
+/* CSS - Página Inicial do site
+   Autora : Larissa Alves de Souza - SP302394X */
+
+body {
+    background: #272727;
+    font-family: 'Open Sans', sans serif;
+    text-align: center;
+    color: #fff;
+    margin: 50px 374px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 a:link {
+    color: #de9c24;
+}
+
+h1 a:hover,
+h1 a:visited {
+    color: #de9c24;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+address {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-style: normal;
+}
