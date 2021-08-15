@@ -1,0 +1,31 @@
+/*Estilização padrão do site*/
+body {
+    
+  margin: 0;
+  
+  background-color: #cbcbcb;
+  
+  font-family: 'Open Sans', sans serif;
+
+}	    
+
+/* Estilização do conteúdo do Rodapé*/
+#Footer {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  font-size: 14px;
+
+  height: 5em;
+
+  border-radius: 0 25px 0 0;
+
+  background-color: #6A6A87;
+
+  text-align: center;
+
+}
