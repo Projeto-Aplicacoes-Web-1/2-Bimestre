@@ -60,3 +60,11 @@ address {
     margin-bottom: 0;
     font-style: normal;
 }
+
+ol {
+    padding-left: 30px;
+}
+
+ol li {
+    margin: 20px 0;
+}
