@@ -1,31 +1,34 @@
 /*Estilização padrão do site*/
-body {
-    
-  margin: 0;
-  
-  background-color: #cbcbcb;
-  
-  font-family: 'Open Sans', sans serif;
 
-}	    
+body {
+    margin: 0;
+    background-color: #cbcbcb;
+    font-family: 'Open Sans', sans serif;
+}
+
 
 /* Estilização do conteúdo do Rodapé*/
+
 #Footer {
+    padding: 23px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    height: 5em;
+    border-radius: 0 25px 0 0;
+    background-color: #6a6a87;
+    text-align: center;
+}
 
-  position: absolute;
+#Footer p {
+    padding-left: 365px;
+    width: 853px;
+    color: #cbcbcb;
+    font-size: 20px;
+    margin: 0;
+}
 
-  bottom: 0;
-
-  width: 100%;
-
-  font-size: 14px;
-
-  height: 5em;
-
-  border-radius: 0 25px 0 0;
-
-  background-color: #6A6A87;
-
-  text-align: center;
-
+#Footer p a {
+    font-weight: 600;
+    color: #191834;
 }
