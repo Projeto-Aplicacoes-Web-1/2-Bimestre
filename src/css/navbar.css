@@ -1,76 +1,64 @@
-	/* Estilização padrão do site*/
-	body {
-    
-		margin: 0;
-    
-		background-color: #cbcbcb;
-    
-		font-family: 'Open Sans', sans serif;
-	
-	}	
-		/* Barra toda */
-	
-		#nav {
-	
-			background: #0F1642;
-	
-			position: fixed;
-	
-			left: 0;
-	
-			padding: 1em;
-	
-			height: 100%;
-	
-			border-radius: 0 20px 20px 0;
-	
-		}
+/* Estilização padrão do site*/
 
-	/* Logo */
-
-		#nav #logo {
-
-			display: block;
-
-			width: 9rem;
-
-			height: 9rem;
-
-			margin: auto;
-
-		}
-   
-		/*Links da Barra de navegação */
-		ul {
-		
-			list-style-type: none;
-
-			margin: 0;
-
-			padding: 0;
-			
-			width: 200px;
-		
-		}
-		
-		/* Texto dos Links*/
-		li a {
-			
-			display: block;
-			
-			color: white;
-			
-			padding: 14px;
-			
-			text-decoration: none;
-
-			margin: auto;
-		}
-		
-		/* Ao passar o mouse por cima do link*/
-		li a:hover {
-
-				text-decoration: underline;
-		}
+body {
+    margin: 0;
+    display: inline-block;
+    background-color: #cbcbcb;
+}
 
 
+/* Barra toda */
+
+#nav {
+    font-family: 'Open Sans', sans serif;
+    background: #0f1642;
+    position: fixed;
+    left: 0;
+    padding: 1em;
+    height: 700px;
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* Logo */
+
+#nav #logo {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+}
+
+
+/*Links da Barra de navegação */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+
+/* Texto dos Links*/
+
+li {
+    color: white;
+}
+
+li a,
+li a:link,
+li a:visited {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+/* Ao passar o mouse por cima do link*/
+
+li a:hover {
+    text-decoration: underline;
+}
