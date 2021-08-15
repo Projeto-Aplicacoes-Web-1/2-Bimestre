@@ -10,6 +10,7 @@ body {
 /* Estilização do conteúdo do Rodapé*/
 
 #Footer {
+    margin-right: 92px;
     padding: 23px 0;
     bottom: 0;
     width: 100%;

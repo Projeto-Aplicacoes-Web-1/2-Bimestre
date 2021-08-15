@@ -68,43 +68,50 @@ ol {
 
 ol li {
     margin: 20px 0;
+    color: #000;
 }
 
 #mensagem {
     height: 235px;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
     width: 860px;
     height: 56px;
     padding-left: 10px;
     margin-top: 0.5em;
-
     outline: none;
     border: solid 1px #c0c0c0;
+    box-sizing: border-box;
     border-radius: 15px;
-    box-shadow: 1px 2px 2px #acacac;			
-
+    box-shadow: 1px 2px 2px #acacac;
     letter-spacing: 0.2px;
     opacity: 75%;
 }
 
-.form p, input, textarea {
+.form p,
+input,
+textarea {
+    font-family: 'Open Sans', sans serif;
     text-align: justify;
     font-size: 20px;
 }
 
 button {
+    font-family: 'Open Sans', sans serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
     height: 48px;
     background: #909090;
     border-radius: 29px;
     border: none;
-
-    outline: none;		
+    outline: none;
     cursor: pointer;
-    font-size: 22px;
-    color: #fff;
 }
+
 button:hover {
     box-shadow: 1px 2px 4px #808080;
 }
