@@ -3,7 +3,9 @@
 Informações: Repositório para armazenar as atividades do projeto da disciplina de AW1- Aplicações Web 1 durante o 3° ano do curso técnico em Informática do IFSP.
 
 Nome: Katharine Fernandes Viana Rodrigues - SP302718X
+
 Nome: Larissa Alves de Souza - SP302394X
+
 Nome: Erik Jonatan Martins Viana - SP3027015
 
 Link do site escolhido para desenvolver o projeto:
